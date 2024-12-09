@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# README для Pizza App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание
 
-## Available Scripts
+Pizza App — это веб-приложение, позволяющее пользователям просматривать различные пиццы, фильтровать их по категориям и сортировать по различным критериям. Приложение предоставляет простой и интуитивно понятный интерфейс, а также поддерживает функции поиска и управления корзиной.
 
-In the project directory, you can run:
+## Функции
 
-### `npm start`
+- **Просмотр пицц**: Пользователи могут просматривать доступные пиццы с изображениями, названиями и ценами.
+- **Фильтрация по категориям**: Возможность фильтровать пиццы по категориям (все, мясные, вегетарианские и т. д.).
+- **Сортировка**: Сортировка пицц по популярности, цене и алфавиту как в прямом, так и в обратном порядке.
+- **Поиск**: Пользователи могут искать пиццы по названию.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Установка
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Требования
 
-### `npm test`
+- Node.js (рекомендуемая версия: 14.x или выше)
+- npm или yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Шаги по установке
 
-### `npm run build`
+1. Клонируйте репозиторий:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/romavav/pizza.git
+   cd react-pizza
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Установите зависимости:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   # или
+   yarn install
+   ```
 
-### `npm run eject`
+3. Запустите приложение в режиме разработки:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   # или
+   yarn start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Откройте браузер и перейдите по адресу [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Используемые технологии
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React**: Библиотека для построения пользовательских интерфейсов.
+- **Redux**: Библиотека для управления состоянием приложения.
+- **React Router**: Библиотека для маршрутизации.
+- **CSS / SCSS**: для стилизации компонентов.
 
-## Learn More
+## Как использовать
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. При запуске приложение отображает список пицц.
+2. Используйте сортировку, чтобы изменить порядок отображения пицц.
+3. Фильтруйте пиццы по категориям.
+4. Используйте поле поиска, чтобы найти конкретную пиццу.
